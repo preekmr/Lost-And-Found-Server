@@ -51,7 +51,7 @@ $(document).ready(function () {
               console.log("SUCCESS : ", data);
               $("#btnSubmit").prop("disabled", false);
               alert("Data submitted successfully.");
-
+              window.top.location="index.html";
           },
           error: function (e) {
 
